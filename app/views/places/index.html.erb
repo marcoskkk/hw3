@@ -2,9 +2,9 @@
 
 
 <% for place in @places%>
-<p><%=place.name%></p>
+<p><a href="/places/<%= place.id %>"><%=place.name%></a></p>
 <%end%>
-
+<br>
 <p>
   <a href="/places/new">New Place</a>
 </p>

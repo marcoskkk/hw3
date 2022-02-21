@@ -6,7 +6,11 @@
     <p><%=post.posted_on%></p>
     <p><%=post.description%></p>
 <% end %>
+<br>
+<p>
+    <a href="/posts/new?place_id=<%= @place.id %>&place=<%=@place.name%>">New Post</a>
+</p>
 
 <p>
-    <a href="/posts/new?place_id=<%= @place.id %>">New Post</a>
+  <a href="/places">All Places</a>
 </p>
