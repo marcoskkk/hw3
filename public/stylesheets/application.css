@@ -9,6 +9,10 @@ h1 {
 
 }
 
+delete {
+  color: #008CBA;
+}
+
 .button_new {
   background-color: white;
   color: #008CBA; /* Green */

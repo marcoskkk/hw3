@@ -13,6 +13,13 @@
 <p>
     <a href="/posts/new?place_id=<%= @place.id %>&place=<%=@place.name%>" class="button_new" >New Post</a>
 </p>
+<p>
+  <a href="/places/<%= @place.id %>/edit" >Edit this place</a>
+</p>
+
+<p><%= button_to "Delete this place", @place, method: :delete %></p>
+
+<br>
 
 <p>
   <a href="/places">All Places</a>
